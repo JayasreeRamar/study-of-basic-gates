@@ -1,4 +1,4 @@
-### study-of-basic-gates
+ ### study-of-basic-gates
 
 **AIM:** 
 
@@ -63,17 +63,38 @@ Y= A⊕B
 
 
 **PROGRAM**
+####  Developed by: 
+#### RegisterNumber:
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
+input a,b;
+output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
+and(Y1,a,b);
+or(Y2,a,b);
+not(Y3,a);
+xor(Y4,a,b);
+nand(Y5,a,b);
+nor(Y6,a,b);
+xnor(Y7,a,b);
+endmodule
+```
 
- Developed by: RegisterNumber: 
- 
 **Logic symbol & Truthtable**
+
+![311431457-ec70f61f-eb9a-4862-b5c7-df1864782310](https://github.com/JayasreeRamar/study-of-basic-gates/assets/138972962/337b9be4-7d6b-4e8b-8ce2-efe9ff7e4fed)
+
 
 **RTL realization Output:** 
 
-**RTL**
+![311431458-a479633b-5907-4a3a-b373-6f74d71f743e](https://github.com/JayasreeRamar/study-of-basic-gates/assets/138972962/9ab6699f-6e57-405a-84e6-97cdd432f23d)
+
+
+**Timing Diagram**
+
+![311431474-4c297a27-f833-4043-a4aa-33ccc36f1e9a](https://github.com/JayasreeRamar/study-of-basic-gates/assets/138972962/a9c51ccc-7cb5-48ed-8f2b-126c152d4b3d)
 
 **Result:**
 
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
