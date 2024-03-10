@@ -63,8 +63,8 @@ Y= A⊕B
 
 
 **PROGRAM**
-####  Developed by: 
-#### RegisterNumber:
+####  Developed by: Jayasree R
+#### RegisterNumber: 212223230087
 
 ```
 module flipflops(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
